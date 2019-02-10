@@ -1,0 +1,4 @@
+#Sun Feb 10 15:22:00 ALMT 2019
+base.0=D\:\\QazLatynHelper\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

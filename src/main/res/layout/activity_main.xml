@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/srcText"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="top"
+        />
+
+    <Button
+        android:id="@+id/btn_convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/srcText"
+        android:text="Сәйкестендіру"
+        />
+
+    <EditText
+        android:id="@+id/descText"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/btn_convert"
+        android:gravity="top"
+        android:editable="false"
+        />
+
+
+
+</RelativeLayout>
